@@ -84,7 +84,7 @@ export default function YearCalendar({
     <div className="bg-white">
       <div className="mx-auto grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 px-4 py-16 sm:grid-cols-2 sm:px-6 xl:max-w-none xl:grid-cols-3 xl:px-8 2xl:grid-cols-4">
         {data.map(month => (
-          <section key={month.name} className="text-center" ref={handleRef.bind(null, month)}>
+          <section key={month.name} className="text-center" ref={handleRef.bind(null, month) as any}>
             <h2 className="text-sm font-semibold text-gray-900">
               {month.name}
             </h2>
