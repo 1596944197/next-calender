@@ -9,18 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.19",
+    "@heroicons/react": "^2.1.3",
+    "@zhengxs/calendar-data": "0.1.0-rc.2",
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.10",
+    "indexof": "^0.0.1",
+    "next": "14.2.1",
+    "rc-time-picker": "^3.7.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.1"
+    "typescript": "^5"
   }
 }
